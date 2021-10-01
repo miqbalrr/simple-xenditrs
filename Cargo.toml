@@ -1,0 +1,16 @@
+[package]
+name = "xenditrs"
+version = "0.1.0"
+authors = ["miqbalrr <iqb4lcakep@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = {version = "0.11.4", features = ["json"]}
+serde = "1"
+serde_json = "1"
+serde_derive = "1"
+
+[dev-dependencies]
+tokio = {version = "1.12", features = ["rt"]}
